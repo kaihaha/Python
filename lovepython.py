@@ -1,0 +1,11 @@
+s='I love Python,Python is everything'
+print ("s[0:10]: ", s[0:10])
+print ("s[2:]: ", s[2:])
+print ("s[2:-2]: ", s[2:-2])
+print ("s[::-3]: ", s[::-3])
+print("字符串长度：",len(s))
+print("大写：",s.upper())
+print("小写：",s.lower())
+print("字符串大小写互换",s.swapcase())
+print("计算“i”出现的次数",s.count('i'))
+print("Python,java替换",s.replace('Python','Java'))
